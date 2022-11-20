@@ -7,4 +7,14 @@ edition = "2021"
 
 [dependencies]
 env_logger="0.9.3"
-log="0.4.17"
+log={version = "0.4.17", features = ["std", "serde"]}
+log4rs = "1.0"
+
+
+[[bin]]
+name = "env_logger"
+path = "src/env_logger.rs"
+
+[[bin]]
+name = "log4rs"
+path = "src/log4rs.rs"
