@@ -17,5 +17,5 @@ name = "env_logger"
 path = "src/env_logger.rs"
 
 [[bin]]
-name = "log4rs"
+name = "log4rs_example"
 path = "src/log4rs_example.rs"

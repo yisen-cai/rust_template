@@ -1,5 +1,3 @@
-mod env_logger;
-
 #[cfg(test)]
 mod tests {
     #[test]

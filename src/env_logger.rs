@@ -1,8 +1,6 @@
 use env_logger::Env;
-use log::{debug};
-use log::error;
-use log::info;
-use log::warn;
+use log::{debug, error, info, warn};
+
 
 #[allow(dead_code)]
 fn main() {
