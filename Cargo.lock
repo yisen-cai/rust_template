@@ -441,6 +441,7 @@ dependencies = [
  "env_logger",
  "log",
  "log4rs",
+ "serde",
 ]
 
 [[package]]
