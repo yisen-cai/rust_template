@@ -6,9 +6,10 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-env_logger="0.9.3"
-log={version = "0.4.17", features = ["std", "serde"]}
-log4rs = "1.0"
+env_logger = "0.9.3"
+log = { version = "0.4.17", features = ["std", "serde"] }
+log4rs = { version = "1.0", features = ["rolling_file_appender", "compound_policy", "size_trigger", "fixed_window_roller"] }
+
 serde = "1.0.97"
 
 
